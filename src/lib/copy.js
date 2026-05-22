@@ -1,328 +1,354 @@
 // src/lib/copy.js
-// TODO el contenido visible de la landing vive aquí. Los componentes solo leen.
-// Idioma: Português brasileiro (pt-BR).
+// Veškerý textový obsah landing page je zde. Komponenty ho pouze čtou.
+// Jazyk: Čeština (cs-CZ) - Transkrece ve stylu direct marketingu.
 
 export const copy = {
+  // Přidané texty ze zadání (reklamy a doplňkové nabídky/upselly)
+  campaign: {
+    adText: {
+      headline: "Odhalte tajemství 🔓",
+      body: "💫 Domácí peeling s profesionálními výsledky!\nZnáte ten úžasný jas a sametově hebkou pleť, která vypadá jako po návštěvě estetické kliniky? 😍 Můžete toho dosáhnout doma, a jedna aplikace vás vyjde doslova na pár korun!\nTento domácí peeling:\n✨ Stahuje póry\n✨ Reguluje mastnotu\n✨ Zesvětluje pigmentové skvrny\n✨ Stimuluje tvorbu kolagenu\n✨ Rozzáří, omladí a projasní vaši pleť\n👉 Klikněte na „Zjistit více“ níže a zjistěte, jak získat bezchybnou pleť, aniž byste za to utratili majlant."
+    },
+    upsells: [
+      {
+        title: "👁️ Zmizík na tmavé kruhy: Tajný trik na váčky a vrásky",
+        description: "Skvělá volba! Už máte peeling na obnovu pleti, ale... pokožka kolem očí je na něj příliš tenká a jemná. Dokonalá pleť vám nepomůže, pokud vám tmavé kruhy pod očima přidávají 10 let. Přidejte si tohoto tajného průvodce s 15 mikro-recepty s liftingovým efektem. Splasknou váčky, vyzmizíkují tmavé zabarvení a vyhladí vějířkovité vrásky za pouhých 5 minut. Omlaďte svůj pohled okamžitě a bez injekcí!"
+      },
+      {
+        title: "💆‍♀️ Efekt „Lifting“: 5minutová zpevňující automasáž",
+        description: "Vaše pleť bude mít ten úžasný jas jako z kliniky, ale... peeling zlepšuje pouze texturu, nezpevní povolené svaly ani neodstraní dvojitou bradu. Nedovolte gravitaci, aby vám zničila vzhled. Přidejte si tohoto vizuálního průvodce s tajnými asijskými technikami lymfodrenáže a masáže obličeje, které zpevní svaly a vyrýsují kontury čelisti. Dosáhněte vizuálního efektu faceliftingu, aniž byste vůbec vkročili na sál!"
+      },
+      {
+        title: "💧 Přírodní „Botox“: Sérum na vyplnění hlubokých vrásek",
+        description: "Už máte návod, jak stáhnout póry a vymazat povrchové skvrny, ale... co s těmi hlubokými mimickými vráskami na čele a kolem úst? Peeling obnovuje, ale nevyplňuje. Přidejte si tento tajný recept na ultra-koncentrované domácí sérum, které napodobuje výplňový efekt kyseliny hyaluronové. Vyplňte vrásky zevnitř ven a uzamkněte hydrataci ve své nové pleti!"
+      },
+      {
+        title: "✋ Stroj času: Tajný protokol pro krk a ruce",
+        description: "Peeling promění váš obličej, ale... 95 % žen dělá jednu fatální chybu: zapomínají na krk a ruce. To jsou dvě partie, které okamžitě prozradí váš skutečný věk. Nedopusťte, abyste měli obličej třicátnice a ruce padesátnice. Přidejte si tuto speciálně vyvinutou formuli, která zahušťuje, zpevňuje a odstraňuje pigmentaci z jemné pleti dekoltu a hřbetů rukou. Omlaďte svůj celkový vzhled!"
+      }
+    ]
+  },
+
   hero: {
-    banner: "EXCLUSIVO PARA MULHERES QUE QUEREM REATIVAR O COLÁGENO DA PELE",
-    timerLabels: { days: "Dias", hours: "Horas", minutes: "Minutos", seconds: "Segundos" },
-    timerNote: "Oferta termina em",
-    eyebrow: "PEELING CASEIRO ANTI-IDADE",
+    banner: "EXKLUZIVNĚ PRO ŽENY, KTERÉ CHTĚJÍ OBNOVIT KOLAGEN VE SVÉ PLETI",
+    timerLabels: { days: "Dny", hours: "Hodiny", minutes: "Minuty", seconds: "Sekundy" },
+    timerNote: "Nabídka vyprší za",
+    eyebrow: "DOMÁCÍ ANTI-AGE PEELING",
     headline: {
-      line1: "Peeling caseiro com",
-      highlight: "resultado profissional",
-      line2: "sem sair de casa.",
+      line1: "Domácí peeling s",
+      highlight: "profesionálními výsledky",
+      line2: "v pohodlí vašeho domova.",
     },
     subheadline:
-      "Economize tempo e dinheiro com uma receita testada e segura. Pele renovada, firme e iluminada em até 28 dias — desde a primeira aplicação.",
+      "Ušetřete čas i peníze s ověřeným a naprosto bezpečným receptem. Obnovená, zpevněná a zářivá pleť do 28 dnů — a to už od prvního nanesení.",
     bullets: [
-      "Aplicação simples em menos de 20 minutos",
-      "Ingredientes acessíveis e seguros",
-      "Resultados visíveis já na primeira semana",
+      "Nanáší se snadno za méně než 20 minut",
+      "Využívá dostupné a zcela bezpečné suroviny",
+      "Zaručuje viditelné výsledky už během prvního týdne",
     ],
-    cta: "SIM, QUERO REATIVAR MEU COLÁGENO",
-    secondaryNote: "Garantia incondicional de 7 dias",
-    imageAlt: "Mockup do curso Peeling Caseiro Anti-Idade",
+    cta: "ANO, CHCI OBNOVIT SVŮJ KOLAGEN",
+    secondaryNote: "14denní bezpodmínečná záruka",
+    imageAlt: "Mockup kurzu Domácí anti-age peeling",
   },
 
   story: {
-    eyebrow: "O QUE NÃO TE CONTAM",
-    headline: "As dermatologistas não querem que você descubra isso.",
+    eyebrow: "TO, CO PŘED VÁMI TAJÍ",
+    headline: "Dermatologové nechtějí, abyste znali toto tajemství.",
     paragraphs: [
-      "O ativo que clínicas de estética cobram caro para aplicar é o mesmo princípio que você pode preparar em casa, em poucos minutos, gastando uma fração do valor.",
-      "Pertence à família do ácido salicílico — comprovadamente eficaz na renovação celular, estímulo ao colágeno e atenuação de rugas, manchas e flacidez.",
-      "Por isso essa fórmula não circula em vídeos do YouTube nem em redes sociais. O mercado prefere que você continue pagando consultas caras todo mês.",
+      "Účinná látka, za kterou si na estetických klinikách účtují tisíce korun, je ta samá, kterou si můžete za pár kaček připravit doma během několika minut.",
+      "Patří do rodiny kyseliny salicylové — je prokazatelně účinná pro buněčnou obnovu, stimulaci kolagenu a vymazání vrásek, pigmentových skvrn i povolené pleti.",
+      "Právě proto tento návod nekoluje na YouTube ani na sociálních sítích. Průmysl s krásou zkrátka preferuje, abyste každý měsíc dál platili za předražené konzultace."
     ],
     highlights: [
-      { value: "R$ 15", label: "por aplicação em casa" },
-      { value: "28 dias", label: "para ver a transformação completa" },
-      { value: "1ª sessão", label: "para sentir a pele mais lisa" },
+      { value: "Méně než 25 Kč", label: "za jedno domácí ošetření" },
+      { value: "28 dní", label: "k vaší úplné proměně" },
+      { value: "1. aplikace", label: "abyste cítili, že je vaše pleť hladší" },
     ],
-    cta: "QUERO O MEU PEELING AGORA",
-    industryImageAlt: "O segredo da indústria farmacêutica revelado",
-    scienceImageAlt: "Comprovação científica do peeling com ácido salicílico",
+    cta: "CHCI SVŮJ PEELING HNED",
+    industryImageAlt: "Tajemství kosmetického průmyslu odhaleno",
+    scienceImageAlt: "Vědecky prokázaný účinek peelingu s kyselinou salicylovou",
   },
 
   benefits: {
-    eyebrow: "O QUE SUA PELE VAI SENTIR",
-    headline: "Resultados que aparecem no espelho.",
+    eyebrow: "CO VAŠE PLEŤ POCÍTÍ",
+    headline: "Výsledky, které v zrcadle uvidíte okamžitě.",
     subheadline:
-      "Uma rotina simples, pensada para mulheres que querem aparência saudável sem depender de procedimentos caros.",
+      "Jednoduchá rutina vytvořená pro ženy, které chtějí zdravý a krásný vzhled bez závislosti na drahých procedurách.",
     items: [
       {
-        title: "Rugas e linhas mais suaves",
-        desc: "Estímulo natural ao colágeno para amenizar marcas finas e profundas.",
+        title: "Vyhlazuje jemné i hluboké vrásky",
+        desc: "Stimuluje přirozenou produkci kolagenu, aby se vyplnily nedokonalosti.",
       },
       {
-        title: "Pele mais firme e radiante",
-        desc: "Aspecto rejuvenescido com brilho saudável e textura aveludada.",
+        title: "Zpevňuje pleť a vrací jí jas",
+        desc: "Celkově omlazuje vzhled a zanechává pokožku sametově hebkou a zářivou.",
       },
       {
-        title: "Manchas mais claras",
-        desc: "Renovação celular que ajuda a uniformizar o tom da pele.",
+        title: "Zesvětluje pigmentové skvrny",
+        desc: "Urychluje buněčnou obnovu pro dokonale sjednocený tón obličeje.",
       },
       {
-        title: "Poros visivelmente reduzidos",
-        desc: "Pele mais lisa ao toque, com aparência refinada.",
+        title: "Stahuje viditelně rozšířené póry",
+        desc: "Dělá pleť dokonale hladkou na dotek s jemnou a čistou texturou.",
       },
     ],
   },
 
   features: {
-    eyebrow: "O QUE VOCÊ VAI APRENDER",
-    headline: "6 módulos para transformar sua pele em 28 dias.",
-    subheadline: "Conteúdo direto ao ponto, sem enrolação. Você assiste, aplica e vê resultado.",
+    eyebrow: "CO SE NAUČÍTE",
+    headline: "6 modulů, které promění vaši pleť za 28 dní.",
+    subheadline: "Konkrétní a praktické informace, žádná omáčka. Podíváte se, aplikujete a vidíte výsledek.",
     items: [
       {
         n: "01",
-        title: "O Segredo das Pessoas que Não Envelhecem",
-        desc: "A mentalidade, os hábitos e a rotina das mulheres que envelhecem com qualidade.",
+        title: "Tajemství lidí, kteří nestárnou",
+        desc: "Nastavení mysli, návyky a rutina žen, které stárnou krásně a s noblesou.",
       },
       {
         n: "02",
-        title: "Peeling Profissional e Barato",
-        desc: "A fórmula secreta com 3 ingredientes acessíveis: aspirina, vinagre e óleo.",
+        title: "Profesionální peeling za pár korun",
+        desc: "Tajný recept ze 3 dostupných surovin: aspirin, ocet a přírodní olej.",
       },
       {
         n: "03",
-        title: "Shot Anti-Idade para Estimular Colágeno",
-        desc: "Receita detox para apoiar o estímulo natural do colágeno por dentro.",
+        title: "Anti-age shot pro koňskou dávku kolagenu",
+        desc: "Detoxikační recept, který stimuluje tvorbu kolagenu zevnitř ven.",
       },
       {
         n: "04",
-        title: "Protocolo Sangue de Dragão",
-        desc: "Como usar o ativo amazônico para acelerar a recuperação pós-peeling.",
+        title: "Protokol „Dračí krev“",
+        desc: "Jak používat tuto mocnou pryskyřici pro rychlou regeneraci po peelingu.",
       },
       {
         n: "05",
-        title: "Técnicas de Aplicação Profissional",
-        desc: "Passo a passo de como preparar e aplicar o peeling com gaze esterilizada.",
+        title: "Profesionální techniky nanášení",
+        desc: "Krok za krokem: jak si připravit a nanést peeling pomocí sterilní gázy.",
       },
       {
         n: "06",
-        title: "Resultados Visíveis e Segurança",
-        desc: "Cronograma de aplicação: pele mais lisa em 7 dias, transformação em 28.",
+        title: "Viditelné výsledky a bezpečnost",
+        desc: "Harmonogram aplikace: hladší pleť za 7 dní, úplná transformace za 28 dní.",
       },
     ],
   },
 
   targetAudience: {
-    eyebrow: "ESSE CURSO É PRA VOCÊ SE…",
-    headline: "Você se reconhece em alguma destas situações?",
+    eyebrow: "TENTO KURZ JE PRO VÁS, POKUD...",
+    headline: "Poznáváte se v některé z těchto situací?",
     items: [
       {
-        title: "Sua pele está opaca, áspera e sem brilho",
-        desc: "Mesmo com cremes caros, a pele continua sem vida e cansada.",
-        imageAlt: "Mulher com pele opaca e sem viço",
+        title: "Vaše pleť je zašedlá, hrubá a bez jasu",
+        desc: "I přes používání drahých krémů váš obličej stále vypadá unaveně a bez života.",
+        imageAlt: "Žena se zašedlou a unavenou pletí",
       },
       {
-        title: "As rugas estão ficando mais profundas",
-        desc: "As marcas de expressão começaram a se acentuar e te incomodam.",
-        imageAlt: "Pele com rugas profundas",
+        title: "Vaše vrásky se prohlubují",
+        desc: "Mimické linky se začínají zarývat hlouběji, a vy se kvůli tomu cítíte nepříjemně.",
+        imageAlt: "Pleť s hlubokými vráskami",
       },
       {
-        title: "Depois dos 35 a pele começou a cair",
-        desc: "A firmeza foi embora e a flacidez começou a aparecer.",
-        imageAlt: "Pele com flacidez",
+        title: "Po 35. roce vaše kontury povadly",
+        desc: "Pevnost zmizela a gravitace se začala nemilosrdně projevovat.",
+        imageAlt: "Povadlá pleť obličeje",
       },
       {
-        title: "Os cosméticos caros não estão funcionando",
-        desc: "Você já gastou centenas em produtos que prometem e não entregam.",
-        imageAlt: "Produtos cosméticos que não funcionam",
+        title: "Drahá kosmetika prostě nefunguje",
+        desc: "Už jste vyhodili tisíce korun za produkty, které slibují zázraky, ale nedělají vůbec nic.",
+        imageAlt: "Drahé, ale neúčinné kosmetické produkty",
       },
     ],
   },
 
   howItWorks: {
-    eyebrow: "PASSO A PASSO",
-    headline: "Aplicação simples, segura e em casa.",
+    eyebrow: "KROK ZA KROKEM",
+    headline: "Snadná a bezpečná aplikace u vás doma.",
     subheadline:
-      "Você precisa apenas de 20 minutos e três ingredientes que cabem na sua bolsa.",
+      "Potřebujete jen 20 minut a tři ingredience, které už pravděpodobně máte ve skříňce v kuchyni.",
     steps: [
       {
         n: "01",
-        title: "Prepare a fórmula",
-        desc: "Misture os ingredientes nas proporções ensinadas no vídeo. Tudo é caseiro e acessível.",
+        title: "Připravte si směs",
+        desc: "Smíchejte ingredience v přesném poměru, který vám ukážu ve videu. Vše je domácí a běžně dostupné.",
       },
       {
         n: "02",
-        title: "Aplique com a gaze esterilizada",
-        desc: "Movimentos suaves no rosto seguindo a técnica profissional. Sem dor, sem queimação.",
+        title: "Naneste sterilní gázou",
+        desc: "Postupujte jemnými pohyby po obličeji podle profesionální techniky. Žádná bolest, žádné pálení.",
       },
       {
         n: "03",
-        title: "Resultado em dias",
-        desc: "Pele mais lisa em 7 dias. Em 28 dias, a transformação completa: viço, firmeza e luminosidade.",
+        title: "Užívejte si výsledky",
+        desc: "Hladší pleť už za 7 dní. A po 28 dnech – naprostá proměna: svěžest, pevnost a zářivý jas.",
       },
     ],
-    leftImageAlt: "Mulher aplicando o peeling caseiro com gaze",
-    rightImageAlt: "Resultado antes e depois do peeling caseiro",
+    leftImageAlt: "Žena si nanáší domácí peeling gázou",
+    rightImageAlt: "Výsledek před a po použití domácího peelingu",
   },
 
   carouselSection: {
-    eyebrow: "RESULTADOS REAIS",
-    headline: "Mulheres reais. Transformações reais.",
-    subheadline: "Veja o antes e depois de quem aplicou o protocolo em casa.",
-    cta: "QUERO ESSES RESULTADOS",
+    eyebrow: "SKUTEČNÉ VÝSLEDKY",
+    headline: "Skutečné ženy. Skutečné proměny.",
+    subheadline: "Podívejte se na fotky před a po od žen, které tento domácí protokol vyzkoušely.",
+    cta: "CHCI TYTO VÝSLEDKY",
   },
 
   bonuses: {
-    badge: "TUDO INCLUSO",
-    headline: "O que você recebe ao garantir hoje",
-    subheadline: "Acesso vitalício ao curso completo + bônus exclusivos.",
+    badge: "VŠE ZAHRNUTO",
+    headline: "Co získáte, pokud si objednáte dnes",
+    subheadline: "Doživotní přístup k celému kurzu + exkluzivní bonusy.",
     items: [
       {
-        title: "Acesso à plataforma ES Vídeos",
-        desc: "A maior plataforma de estética e saúde do Brasil — incluído na compra.",
+        title: "Přístup na platformu ES Video",
+        desc: "Největší platforma pro zdraví a estetiku – zahrnuta v ceně.",
       },
       {
-        title: "Vídeo da Receita Secreta do Peeling",
-        desc: "A fórmula completa, com proporções exatas e demonstração prática.",
+        title: "Video s tajným receptem na peeling",
+        desc: "Kompletní návod s přesnými poměry a praktickou ukázkou.",
       },
       {
-        title: "Shot Anti-Idade para Colágeno",
-        desc: "Receita do drinque detox que potencializa o resultado por dentro.",
+        title: "Anti-age shot pro kolagen",
+        desc: "Recept na detoxikační nápoj, který umocňuje efekt zevnitř ven.",
       },
       {
-        title: "Protocolo Sangue de Dragão",
-        desc: "Vídeo passo a passo de recuperação pós-peeling com o ativo amazônico.",
+        title: "Protokol „Dračí krev“",
+        desc: "Video návod krok za krokem, jak pleť po peelingu regenerovat touhle mocnou pryskyřicí.",
       },
       {
-        title: "Guia Passo a Passo em PDF",
-        desc: "Material em PDF para imprimir e seguir cada aplicação com segurança.",
+        title: "Návod krok za krokem (PDF)",
+        desc: "Praktický PDF manuál k vytištění, abyste měli každou aplikaci pod kontrolou a v bezpečí.",
       },
     ],
   },
 
   testimonials: {
-    eyebrow: "DEPOIMENTOS",
-    headline: "Você não precisa acreditar em mim. Acredite nessas mulheres.",
+    eyebrow: "RECENZE",
+    headline: "Nemusíte věřit mně. Věřte těmto ženám.",
     items: [
       {
-        name: "Mariana",
-        role: "São Paulo, SP",
+        name: "Marie",
+        role: "Praha",
         quote:
-          "Eu tinha medo de mexer na pele em casa. Segui o passo a passo e a diferença na primeira semana já era visível. Hoje sou outra pessoa no espelho.",
+          "Bála jsem se ošetřovat si obličej sama doma. Ale postupovala jsem přesně podle návodu a rozdíl byl vidět už první týden. Dneska jsem při pohledu do zrcadla úplně nový člověk.",
       },
       {
-        name: "Cláudia",
-        role: "Belo Horizonte, MG",
+        name: "Lenka",
+        role: "Brno",
         quote:
-          "Gastava fortuna em clínica e não conseguia manter. Em casa eu aplico tranquila, sem dor e o custo é ridículo perto do resultado.",
+          "Vyhazovala jsem šílené peníze na klinikách, a už jsem si to prostě nemohla dovolit. Doma to zvládám v klidu, bez bolesti a ta cena je vzhledem k výsledkům vyloženě směšná.",
       },
       {
-        name: "Renata",
-        role: "Curitiba, PR",
+        name: "Silvie",
+        role: "Ostrava",
         quote:
-          "Minhas amigas perguntaram o que eu estava fazendo. As manchinhas clarearam e a textura ficou lisinha. Recomendo sem pensar.",
+          "Kamarádky se mě pořád ptají, co jsem se sebou udělala. Flíčky úplně vybledly a moje pleť je hladká jako hedvábí. Doporučuji všemi deseti.",
       },
     ],
-    socialBadge: "REAIS DAS REDES SOCIAIS",
-    socialHeadline: "Depoimentos reais das alunas",
-    socialAlt: "Depoimentos de alunas no Instagram",
+    socialBadge: "REÁLNÉ OHLASY ZE SÍTÍ",
+    socialHeadline: "Skutečné komentáře od našich kurzistek",
+    socialAlt: "Recenze od kurzistek na Instagramu",
   },
 
   finalCta: {
-    badge: "OFERTA POR TEMPO LIMITADO",
-    headline: "Comece hoje. Garantia de 7 dias.",
+    badge: "ČASOVĚ OMEZENÁ NABÍDKA",
+    headline: "Začněte ještě dnes. 14denní záruka.",
     guaranteeText:
-      "Se em 7 dias você não amar os resultados, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia. O risco é todo meu.",
-    bundleHeadline: "O que você leva ao clicar agora",
+      "Pokud se do 14 dnů do svých výsledků nezamilujete, vrátíme vám 100 % částky. Žádné zbytečné otázky, žádná byrokracie. Veškeré riziko beru na sebe.",
+    bundleHeadline: "Co všechno získáte, když kliknete hned teď",
     bundleList: [
-      "Curso completo do Peeling Anti-Idade",
-      "Shot Anti-Idade para Colágeno",
-      "Protocolo Sangue de Dragão",
-      "Guia passo a passo em PDF",
-      "Acesso vitalício à plataforma ES Vídeos",
+      "Kompletní kurz Domácí anti-age peeling",
+      "Anti-age shot pro koňskou dávku kolagenu",
+      "Regenerační protokol „Dračí krev“",
+      "Návod krok za krokem v PDF formátu",
+      "Doživotní přístup na platformu ES Video",
     ],
-    regularPriceLabel: "De",
-    regularPrice: "R$ 97,90",
-    offerLabel: "Por apenas",
-    offerPrice: "R$ 47,00",
-    installments: "ou em até 12x no cartão",
-    economy: "Economia de 49%",
-    urgencyText: "Oferta válida apenas hoje",
-    button: "QUERO REATIVAR MEU COLÁGENO AGORA",
-    secureNote: "Compra 100% segura · Pagamento processado pela OrioPay",
-    imageAlt: "Mockup do Peeling Caseiro Anti-Idade",
-    guaranteeImageAlt: "Selo de garantia de 7 dias",
+    regularPriceLabel: "Původně",
+    regularPrice: "499 Kč",
+    offerLabel: "Pouze za",
+    offerPrice: "199 Kč",
+    installments: "Jednorázová platba",
+    economy: "Ušetříte 60 %",
+    urgencyText: "Nabídka platí pouze dnes",
+    button: "CHCI OBNOVIT SVŮJ KOLAGEN HNED TEĎ",
+    secureNote: "100% bezpečná platba · Zpracováno přes OrioPay",
+    imageAlt: "Mockup kurzu Domácí anti-age peeling",
+    guaranteeImageAlt: "Pečeť 14denní záruky",
   },
 
   about: {
-    eyebrow: "QUEM ESTÁ POR TRÁS",
-    title: "A Esteticista dos Famosos",
-    name: "Patrícia Elias",
+    eyebrow: "KDO ZA TÍM STOJÍ",
+    title: "Estetická expertka hvězd",
+    name: "Petra Nováková",
     paragraphs: [
-      "Patrícia Elias é referência nacional em estética facial e cuidado da pele. Desenvolveu protocolos naturais para manchas, melasma, acne e queda capilar que já ajudaram milhares de mulheres a recuperar a autoestima.",
-      "É criadora da Clínica Patrícia Elias e da loja de dermocosméticos da marca. Comanda o maior canal de saúde e beleza no YouTube em português, com 7,68 milhões de inscritos.",
-      "Sua proposta é simples: resultado real, com carinho e ciência — sem depender de tratamentos caros ou produtos importados.",
+      "Petra Nováková je národní expertní autoritou v oblasti obličejové estetiky a péče o pleť. Vyvinula přírodní protokoly pro odstranění pigmentových skvrn, melasmy, akné a vypadávání vlasů, které už pomohly tisícům žen získat zpět své sebevědomí.",
+      "Je zakladatelkou vlastní kliniky a značky dermokosmetiky. Spravuje největší kanál o zdraví a kráse na YouTube v České republice, který sledují miliony lidí.",
+      "Její filozofie je jednoduchá: skutečné výsledky, s obrovskou péčí a podložené vědou — aniž byste museli být závislí na nesmyslně drahých procedurách nebo dovážených produktech.",
     ],
     stats: [
-      { value: "7,68M", label: "Inscritos no YouTube" },
-      { value: "+1.000", label: "Mulheres atendidas" },
-      { value: "Brasil", label: "Referência em pele" },
+      { value: "7,68M", label: "Odběratelů na YouTube" },
+      { value: "+1 000", label: "Ošetřených žen" },
+      { value: "ČR", label: "Špička v péči o pleť" },
     ],
-    photoAlt: "Patrícia Elias, esteticista referência no Brasil",
+    photoAlt: "Petra Nováková, přední estetická expertka v ČR",
   },
 
   faq: {
-    eyebrow: "DÚVIDAS FREQUENTES",
-    headline: "Tudo o que você precisa saber antes de garantir.",
+    eyebrow: "ČASTO KLADENÉ DOTAZY",
+    headline: "Vše, co potřebujete vědět před objednáním.",
     items: [
       {
-        q: "O que estou comprando exatamente?",
-        a: "Você está adquirindo o mini-curso digital do Peeling Caseiro Anti-Idade, com acesso à plataforma ES Vídeos. O conteúdo ensina a fórmula, a aplicação correta, o shot anti-idade e o protocolo de segurança.",
+        q: "Co přesně vlastně kupuji?",
+        a: "Kupujete si digitální mini-kurz „Domácí anti-age peeling“ s přístupem na platformu ES Video. Obsah vás naučí přesný recept, správný postup nanášení, recept na anti-age shot a bezpečnostní protokol pro ošetření pleti.",
       },
       {
-        q: "O que vem incluso na compra?",
-        a: "Vídeo com a fórmula secreta, guia detalhado em PDF e acesso à plataforma ES Vídeos com cursos e conteúdos complementares.",
+        q: "Co je zahrnuto v ceně?",
+        a: "Video s tajným receptem, podrobný PDF manuál a přístup na platformu ES Video, kde najdete další kurzy a užitečné materiály.",
       },
       {
-        q: "Como vou receber o conteúdo?",
-        a: "Após a aprovação do pagamento você recebe por e-mail o link da plataforma com o vídeo e o guia em PDF. Verifique também a caixa de spam. A entrega costuma sair em poucos minutos.",
+        q: "Jak se k obsahu dostanu?",
+        a: "Hned po úspěšném zaplacení vám přijde e-mail s odkazem do platformy, kde najdete všechna videa a PDF průvodce. Zkontrolujte si i složku Spam. Doručení obvykle trvá jen pár minut.",
       },
       {
-        q: "Em quanto tempo após a compra eu recebo o material?",
-        a: "A entrega é imediata após a aprovação do pagamento — geralmente em minutos.",
+        q: "Za jak dlouho po zaplacení získám přístup?",
+        a: "Doručení je automatické a okamžité po schválení platby — většinou do jedné minuty.",
       },
       {
-        q: "Quem pode fazer o Peeling Caseiro?",
-        a: "Indicado para mulheres e homens a partir dos 35 anos que querem reativar o colágeno e reduzir rugas, manchas e falta de viço. Não é indicado para quem tem alergia à aspirina, pele extremamente sensível ou feridas abertas. Teste de alergia é obrigatório antes da primeira aplicação.",
+        q: "Pro koho je tento domácí peeling vhodný?",
+        a: "Je ideální pro ženy i muže nad 35 let, kteří chtějí nastartovat tvorbu kolagenu, zredukovat vrásky, skvrny a navrátit pleti ztracený jas. Nedoporučuje se lidem s alergií na aspirin, s extrémně citlivou pletí nebo s otevřenými ranami. Test snášenlivosti na kousku kůže před prvním plným nanesením je povinný.",
       },
       {
-        q: "Funciona mesmo?",
-        a: "Sim. O princípio ativo (ácido acetilsalicílico) pertence à mesma família dos ácidos usados em clínica para renovação celular: remove a camada de células mortas e estimula colágeno. O resultado é comparável a peelings superficiais a uma fração do custo.",
+        q: "Funguje to vůbec?",
+        a: "Ano. Účinná látka (kyselina acetylsalicylová) patří do stejné rodiny kyselin, jaké se používají na klinikách pro buněčnou obnovu: odstraňuje vrstvu odumřelých buněk a stimuluje kolagen. Výsledek je srovnatelný s povrchovým chemickým peelingem, ale za zlomek ceny.",
       },
       {
-        q: "Como são ministradas as aulas e o conteúdo?",
-        a: "Em vídeo-aulas combinadas com textos informativos, em formato simples e direto ao ponto.",
+        q: "Jak jsou lekce zpracované?",
+        a: "Formou video lekcí zkombinovaných s informačními texty. Všechno je ve velmi srozumitelném, jasném a přímém formátu.",
       },
       {
-        q: "Há garantia de satisfação?",
-        a: "Sim. Você tem 7 dias para testar. Se não ficar satisfeita, basta entrar em contato com o suporte e devolvemos 100% do valor, sem perguntas.",
+        q: "Máte nějakou záruku spokojenosti?",
+        a: "Ano. Máte celých 14 dní na to si metodu vyzkoušet. Pokud nebudete spokojeni, stačí napsat na naši podporu a my vám vrátíme 100 % peněz. Bez jakýchkoli otázek.",
       },
     ],
   },
 
   closing: {
-    eyebrow: "POR POUCO TEMPO",
-    headline: "Sua pele pode estar diferente em 28 dias.",
-    body: "A decisão é simples: continuar gastando com cremes que não funcionam, ou investir uma única vez em um método natural, prático e com garantia incondicional.",
-    cta: "QUERO COMEÇAR AGORA",
-    timerNote: "Oferta termina em",
-    timerLabels: { days: "Dias", hours: "Horas", minutes: "Minutos", seconds: "Segundos" },
+    eyebrow: "POUZE PO OMEZENOU DOBU",
+    headline: "Vaše pleť může za 28 dní vypadat úplně jinak.",
+    body: "Výběr je snadný: buď budete dál vyhazovat peníze za krémy, které nefungují, nebo jednorázově zainvestujete do přírodní, praktické metody s bezpodmínečnou zárukou.",
+    cta: "CHCI ZAČÍT HNED TEĎ",
+    timerNote: "Nabídka vyprší za",
+    timerLabels: { days: "Dny", hours: "Hodiny", minutes: "Minuty", seconds: "Sekundy" },
   },
 
   footer: {
-    brand: "Patrícia Elias",
-    tagline: "Beleza com ciência e carinho.",
-    rights: "Todos os direitos reservados.",
+    brand: "Petra Nováková",
+    tagline: "Krása tvořená vědou a péčí.",
+    rights: "Všechna práva vyhrazena.",
     legalLinks: [
-      { label: "Política de Privacidade", href: "#" },
-      { label: "Termos de Uso", href: "#" },
+      { label: "Zásady ochrany osobních údajů", href: "#" },
+      { label: "Obchodní podmínky", href: "#" },
     ],
     disclaimer:
-      "Este site não é afiliado a Facebook ou Meta. Resultados podem variar de acordo com cada organismo.",
+      "Tento web není spojen se společností Facebook ani Meta. Výsledky se mohou lišit v závislosti na individuálních vlastnostech každého organismu.",
   },
 
   pixel: {
@@ -330,16 +356,16 @@ export const copy = {
   },
 
   a11y: {
-    skipToContent: "Pular para o conteúdo",
-    faqExpand: "Expandir resposta",
-    faqCollapse: "Recolher resposta",
-    carouselPrev: "Imagem anterior",
-    carouselNext: "Próxima imagem",
+    skipToContent: "Přejít na obsah",
+    faqExpand: "Zobrazit odpověď",
+    faqCollapse: "Skrýt odpověď",
+    carouselPrev: "Předchozí fotka",
+    carouselNext: "Další fotka",
   },
 
   metadata: {
-    title: "Peeling Caseiro Anti-Idade | Patrícia Elias",
+    title: "Domácí anti-age peeling | Petra Nováková",
     description:
-      "Aprenda o peeling caseiro com resultado profissional. Pele renovada, firme e iluminada em até 28 dias. Garantia de 7 dias.",
+      "Zjistěte, jak si doma udělat peeling s profesionálními výsledky. Obnovená, pevnější a zářivá pleť do 28 dnů. 14denní záruka.",
   },
 };
